@@ -1,6 +1,6 @@
 @import url(./fonts.css);
 
-/* CUSTOM PROPS */
+
 :root {
   --primary-orange: #ff7500;
   --white: #fff;
@@ -9,7 +9,6 @@
   --robotocondensed: "RobotoCondensed";
 }
 
-/* GLOBAL STYLES */
 * {
   margin: 0;
   padding: 0;
@@ -42,8 +41,6 @@ ul {
   opacity: 0.6;
 }
 
-/* CONTAINER SIZE */
-
 .container {
   width: 1130px;
   padding-left: 15px;
@@ -55,7 +52,7 @@ body {
   font-family: var(--roboto);
 }
 
-/* SITE-HEADER */
+
 .site-line {
   width: 100%;
   height: 5px;
@@ -124,9 +121,6 @@ body {
     width: 100%;
 }
 
-/* SITE-HEADER */
-
-/* SITE-HERO */
 .site-hero {
     background-color: var(--dark);
 }
@@ -170,9 +164,7 @@ body {
     transform: translateY(40px);
     box-shadow: 24px 24px 0px 0px rgba(255, 117, 0, 0.60);
 }
-/* SITE-HERO */
 
-/* ABOUT-SECTION */
 .about {
   padding-top: 269px;
   padding-bottom: 151px;
@@ -185,7 +177,7 @@ body {
   font-family: var(--robotocondensed);
   font-size: 72px;
   font-weight: 700;
-  line-height: 120%; /* 86.4px */
+  line-height: 86px;
   letter-spacing: 0.5px;
   display: flex;
   flex-direction: column;
@@ -241,11 +233,6 @@ body {
 
 }
 
-
-/* ABOUT-SECTION */
-
-
-/* SALE-SECTION */
 .sale {
   padding-top: 119px;
   padding-bottom: 160px;
@@ -298,10 +285,7 @@ body {
   height: 440px;
   transform: translateY(-64px);
 }
-/* SALE-SECTION */
 
-
-/* SITE-FOOTER */
 .footer {
   background-color: #F8F8F8;
   padding-top: 53px;
@@ -365,4 +349,3 @@ body {
 .menu-link:active {
   opacity: 0.6;
 }
-/* SITE-FOOTER */
